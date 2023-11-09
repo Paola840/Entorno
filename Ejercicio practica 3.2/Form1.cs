@@ -35,7 +35,7 @@ namespace Ejercicio_practica_3._2
                 if (numPalabras <= 10)
                     coste = 2.5;
                 else
-                    coste = 2.5+ 0.5*( numPalabras-10);
+                    coste = 2.5 + 0.5 * (numPalabras - 10);
             else
             //Si el telegrama es urgente
             if (tipoTelegrama == 'u')
